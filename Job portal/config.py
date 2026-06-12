@@ -5,7 +5,7 @@ import os
 
 load_dotenv()
 
-COMPANIES = ["stripe", "riotgames", "2k", "klaviyo", "asana", "globalizationpartners"]
+COMPANIES = ["examples"]
 
 DB_CONFIG = {
     "host":     os.getenv("DB_HOST"),
